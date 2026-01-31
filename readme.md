@@ -4,11 +4,19 @@
 
 ## Features (Planned & Implemented)
 
-* **Core:** C++17/20 architecture.
+* **Core:** C++17 architecture.
 * **Rendering:** Built on **SDL_GPU** (Vulkan/Direct3D12/Metal abstraction) for high-performance rendering.
 * **Windowing:** SDL3 Video & Events.
 * **Platform:** Windows (x64), with cross-platform capabilities via SDL3.
-* **Architecture:** Custom ECS (Entity Component System) planned.
+* **Architecture:** Node Based Scene Graph (Inspired by Godot Engine).
+* **Input Handling:** Keyboard, Mouse, Gamepad support via SDL3.
+* **Audio:** SDL3 Audio subsystem for sound effects and music.
+* **2D Sprite Rendering:** Support for HD-2D style graphics with dynamic lighting and depth effects.
+* **Future Plans:**
+    * Physics Integration (e.g., Box2D).
+    * Scripting Support (e.g., Python).
+    * Asset Management System.
+    * GUI System for in-engine tools.
 
 ## Tech Stack
 
