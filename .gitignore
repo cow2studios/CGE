@@ -1,0 +1,39 @@
+# --- Visual Studio Internals ---
+.vs/
+*.user
+*.suo
+*.aps
+*.opensdf
+*.sdf
+*.cache
+
+# --- Build Output Directories (Junk files) ---
+# These are where VS dumps the compiled files.
+x64/
+x86/
+Debug/
+Release/
+build/
+out/
+
+# --- Intermediate Files ---
+*.obj
+*.pdb
+*.ilk
+*.tlog
+*.idb
+*.ipch
+
+# --- Executables ---
+# Ignore generated game exes
+*.exe
+
+# --- Dependencies Strategy ---
+# 1. Ignore system DLLs, BUT...
+*.dll
+
+# 2. ...Explicitly KEEP SDL3.dll so the game runs when you clone it
+!SDL3.dll
+!Dependencies/**/*.dll
+
+# --- Libraries ---

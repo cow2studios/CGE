@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="CowGameEngine.vcxproj" Id="beebcf3b-beb3-46d9-808a-327cd8185c73" />
+</Solution>
