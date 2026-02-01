@@ -131,6 +131,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CowGameEngine.cpp" />
+    <ClCompile Include="Node\Node.cpp" />
+    <ClCompile Include="Node\Node2D\Node2D.cpp" />
+    <ClCompile Include="Node\Node2D\SpriteNode\SpriteNode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Node\Node.h" />
+    <ClInclude Include="Node\Node2D\Node2D.h" />
+    <ClInclude Include="Node\Node2D\SpriteNode\SpriteNode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
